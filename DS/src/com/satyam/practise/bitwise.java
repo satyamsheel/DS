@@ -1,7 +1,7 @@
 package com.satyam.practise;
 import java.util.*;
 
-public class bitwise {
+public class bitwise_282A {
 	
 	public static void main(String args[]) {
 		Scanner sc =new Scanner(System.in);
