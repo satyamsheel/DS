@@ -1,7 +1,7 @@
 package com.satyam.practise;
 
 import java.util.*;
-public class BeautifulMatrix {
+public class BeautifulMatrix_282A {
 	static char a[][]=new char[5][5];
 	
 	public static void doTheMagic(char a[][]) {
