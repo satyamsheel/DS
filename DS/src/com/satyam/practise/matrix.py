@@ -1,0 +1,23 @@
+import numpy as np
+import random as ra
+
+row = ra.randint(10,50)
+col = ra.randint(10,50)
+print("Array 1")
+arr1= np.random.randint(20,50,size=(row,col))
+print(arr1)
+print("Array 2")
+arr2= np.random.randint(20,50,size=(row,col))
+print(arr2)
+print("SUM")
+print(arr1+arr2)
+print("DIFF")
+print(arr1-arr2)
+print("MULTIPLICATION")
+print(arr1*arr2)
+print("INVERSE ARRAY1")
+print(np.linalg.inv(arr1))
+print("INVERSE ARRAY2")
+print(np.linalg.inv(arr2))
+print("Vector")
+print(np.dot(arr1,arr2))
