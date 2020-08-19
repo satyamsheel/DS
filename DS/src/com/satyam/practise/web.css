@@ -1,0 +1,87 @@
+
+  body{
+    font-family: 'Baloo Thambi 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('fit.jpg')
+  }
+  .left{
+    display: inline-block;
+      /* border: 2px solid red; */
+      position: absolute;
+      top: 30px 30px;
+  }
+  .left div{
+    text-align: center;
+    font-size: 20px;
+  }
+  .left img{
+    width: 90px;
+  }
+  .mid {
+    display: block;
+    width: 33%;
+    margin: 30px auto ;
+    /* border: 2px solid green; */
+  }
+
+  .right{
+    position: absolute;
+    right: 34px;
+    top: 34px;
+    display: inline-block;
+    /* border: 2px solid white; */
+  }
+  .navbar li{
+    display: inline;
+    font-size: 25px;
+  }
+  .navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+  }
+  .navbar li a:hover,a.active{
+    color: grey;
+    text-decoration: underline;
+  }
+  .btn{
+    font-family: 'Baloo Thambi 2', cursive;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: ;
+  }
+  .container{
+    margin: 165px 150px;
+    width: 33%;
+    padding: 77px 37px;
+    border: 2px solid white;
+    border-radius: 30px;
+  }
+  .form_input input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 10PX;
+    margin: 10px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .container h1{
+    text-align: center;
+  }
+  .container button{
+    display: block;
+    width: 23%;
+    margin: 20px auto;
+  }
