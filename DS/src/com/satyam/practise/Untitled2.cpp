@@ -1,24 +1,23 @@
-#include<stdio.h>
+//different types of object creation
+#include<iostream>
+using namespace std;
+class satyam
+{
+	public:
+		int t;
+		
+	void hero()
+	{
+		cout<<"hello"<<endl;
+		cout<<t;
+		}	
+};
 int main()
 {
-	int a[3][3];
-	int i,j;
-	char ch;
-	for(i=0;i<3;i++)
-	{
-		for(j=0;j<3;j++)
-		{
-			a[i][j]='•';
-		}
-	}
-	printf("select X or O");
-	scanf("%c",&ch);
-	for(i=0;i<3;i++)
-	{
-		for(j=0;j<3;j++)
-		{
-			printf("%c\t",a[i][j]);
-		}
-		printf("\n");
-	}
+	satyam obj;
+	obj.t=65;
+	obj.hero();
+	satyam *obj1=new satyam();
+	obj1->t=45;
+	obj1->hero();
 }
